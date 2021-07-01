@@ -1,0 +1,5 @@
+pi=22/7
+m=10/3
+print(pi)
+print("{:.51f}".format(pi))
+print("{:.22f}".format(m))

@@ -1,0 +1,13 @@
+stickers=20
+adhesivos=20
+if stickers==adhesivos:
+    print("Se usan ambas")
+    
+acl=int(input("Ingrese el # de ACL "))
+if acl >=1 and acl <=99:
+    print("La ACL es Estandar")
+elif acl >=100 and acl <=200:
+    print("La ACL es extendida")
+
+else:
+    print("El # ingresado no es ALC")

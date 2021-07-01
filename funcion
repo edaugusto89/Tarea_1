@@ -1,0 +1,8 @@
+def crealista (n):
+    Lista1=[]
+    for i in range(n):
+        lista1:append(i)
+    return lista1    
+
+print(crealista(5))
+        

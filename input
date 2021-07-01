@@ -1,0 +1,2 @@
+peso=float(input("Ingrese su peso "))
+print("su peso es: ",peso)

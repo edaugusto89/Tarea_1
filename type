@@ -1,0 +1,6 @@
+"Edwin"
+print("Edwin")
+print(type(6))
+print(type(85.5))
+print(type(True))
+print(type("ping pong"))

@@ -1,0 +1,16 @@
+def keyw(**datos):
+    print("\nTipo de datos del argumento:",type(datos))
+    
+    
+    for key, value in datos.items():
+        print("{} is {}".format(key,value))
+        
+keyw(Firstname="Edwin",
+     Lastname="Villacis",
+     Age=32,
+     phone=123456)
+keyw(Firstname="Maria",
+     Lastname="Pavón",
+     Country="Ecuador",
+     Age=32,
+     phone=123456)
